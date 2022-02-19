@@ -27,7 +27,7 @@ function optionChanged(newSample) {
   // Fetch new data each time a new sample is selected
   buildMetadata(newSample);
   buildCharts(newSample);
-  
+
 }
 
 // Demographics Panel 
@@ -63,7 +63,7 @@ function buildCharts(sample) {
     var resultArray = samples.filter(sampleObj => sampleObj.id == sample);
     //  5. Create a variable that holds the first sample in the array.
 
-    var result = resultArray[0]; 
+    var result = resultArray[0];
     // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
 
     var otu_ids = result.otu_ids;
@@ -73,29 +73,25 @@ function buildCharts(sample) {
     // Hint: Get the the top 10 otu_ids and map them in descending order  
     //  so the otu_ids with the most bacteria are last. 
 
-    var yticks =   var yticks = otu_ids.slice(0, 10).map(otuID => `OTU ${otuID}`).reverse();
-
+     var yticks = otu_ids.slice(0, 10).map(otuID => `OTU ${otuID}`).reverse();
+     console.log(yticks)
     // 8. Create the trace for the bar chart. 
     var barData = [
-      [
         {
-            y: yticks,
-            x: sample_values.slice(0, 10).reverse(),
-            text: otu_labels.slice(0, 10).reverse(),
-            type: "bar",
-            orientation: "h",
-          } 
-      ];
-    ];
+          y: yticks,
+          x: sample_values.slice(0, 10).reverse(),
+          text: otu_labels.slice(0, 10).reverse(),
+          type: "bar",
+          orientation: "h",
+        }];
+      
     // 9. Create the layout for the bar chart. 
-    var barLayout = {var barLayout = {
-      title: "Top 10 Bacteria Cultures",
-      margin: { t: 30, l: 150 }   
-    };
-     
-    };
+    var barLayout = {
+        title: "Top 10 Bacteria Cultures",
+      };
+
     // 10. Use Plotly to plot the data with the layout. 
-    Plotly.newPlot("bar", barData, barLayout); 
-    });
-  }
+    Plotly.newPlot("bar", barData, barLayout);
+  });
+}
 
