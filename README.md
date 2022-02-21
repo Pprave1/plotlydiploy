@@ -6,21 +6,19 @@
    The goal of the project is to create a dashboard panel with demographid information,from the bacterial data collected from volunteers. Specifically,volunteers should be able    to identify the top 10 bacterial species in their belly button.
    
  ## Website
+    Please use the link to intearct with the data :  https://pprave1.github.io/plotlydiploy/
    
-    Interactive webpage can be found here :  https://pprave1.github.io/plotlydiploy/
-    Please copy the link and paste in the browser.
-    
- ### Created a horizontal Bar chart
+   ### Created a horizontal Bar chart
     The horizontal bar chart will display the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart.
     
  ###  Created a Bubble chart
    The bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage:
 
-    #### The otu_ids as the x-axis values.
-    #### The sample_values as the y-axis values.
-    #### The sample_values as the marker size.
-    #### The otu_ids as the marker colors.
-    #### The otu_labels as the hover-text values.
+    ####The otu_ids as the x-axis values.
+    ####The sample_values as the y-axis values.
+    ####The sample_values as the marker size.
+    ####The otu_ids as the marker colors.
+    ####The otu_labels as the hover-text values.
     
 ### Created a Gauge Chart
    
@@ -32,6 +30,6 @@
 
 ##### Image created  using Javascript AND htML code :
 
-  ![Challengefinal.png](images/Challengefinal.png)
+  ![Challengefinal.png](Challengefinal.png).
   
   
