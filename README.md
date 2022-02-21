@@ -19,7 +19,6 @@
 ### Created a Bubble Chart
 
     The  bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage:
-
     viz otu_ids as the x-axis; sample_values as the y-axis values;sample_values as the marker size; otu_ids as the marker colors;otu_labels as the hover-text values.
     
     
