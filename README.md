@@ -26,8 +26,13 @@
 
 ### Finally customised the dashboard and created a mobile responsive page 
 
-##### Image created  using Javascript AND htML code :
+##### Image created  using Javascript and HTML code :
 
   ![Challengefinal.png](images/Challengefinal.png)
+  
+ #### Mobile responsive page
+ 
+  ![Challengemobileresponsive.png](images/Challengemobileresponsive.png)
+  
   
   
