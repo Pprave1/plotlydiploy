@@ -7,7 +7,7 @@
    Specifically,volunteers should be able to identify the top 10 bacterial species in their belly button.
    
  ## Website
-    Please use the link to intearct with the data :  https://pprave1.github.io/plotlydiploy/
+    Please use the link to intearct with the data : Add Link> https://pprave1.github.io/plotlydiploy/
    
    ### Created a horizontal Bar chart
     The horizontal bar chart will display the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart.
