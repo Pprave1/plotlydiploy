@@ -3,7 +3,8 @@
 
 ## Overview
 
-   The goal of the project is to create a dashboard panel with demographid information,from the bacterial data collected from volunteers. Specifically,volunteers should be able    to identify the top 10 bacterial species in their belly button.
+   The goal of the project is to create a dashboard panel with demographid information,from the bacterial data collected from volunteers. 
+   Specifically,volunteers should be able to identify the top 10 bacterial species in their belly button.
    
  ## Website
     Please use the link to intearct with the data :  https://pprave1.github.io/plotlydiploy/
@@ -14,15 +15,15 @@
  ###  Created a Bubble chart
    The bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage:
 
-    ####The otu_ids as the x-axis values.
-    ####The sample_values as the y-axis values.
-    ####The sample_values as the marker size.
-    ####The otu_ids as the marker colors.
-    ####The otu_labels as the hover-text values.
+    ####  The otu_ids as the x-axis values.
+    ####  The sample_values as the y-axis values.
+    ####  The sample_values as the marker size.
+    ####  The otu_ids as the marker colors.
+    ####  The otu_labels as the hover-text values.
     
 ### Created a Gauge Chart
    
-   The gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID  
+   The gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID 
    is selected from the dropdown menu.
 
 
@@ -30,6 +31,6 @@
 
 ##### Image created  using Javascript AND htML code :
 
-  ![Challengefinal.png](Challengefinal.png).
+  ![Challengefinal.png](Challengefinal.png)
   
   
