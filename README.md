@@ -10,14 +10,17 @@
     Please copy and paste the link to intearct with the data : 
     
     https://pprave1.github.io/plotlydiploy/
+    
    
-   ### Created a horizontal Bar chart
+### Created a horizontal Bar chart
+   
     The horizontal bar chart will display the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart.
     
- ###  Created a Bubble chart
-   The bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage:
+### Created a Bubble Chart
 
-   viz otu_ids as the x-axis; sample_values as the y-axis values;sample_values as the marker size; otu_ids as the marker colors;otu_labels as the hover-text values.
+    The  bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage:
+
+    viz otu_ids as the x-axis; sample_values as the y-axis values;sample_values as the marker size; otu_ids as the marker colors;otu_labels as the hover-text values.
     
     
 ### Created a Gauge Chart
