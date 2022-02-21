@@ -15,11 +15,8 @@
  ###  Created a Bubble chart
    The bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage:
 
-    ####  The otu_ids as the x-axis values.
-    ####  The sample_values as the y-axis values.
-    ####  The sample_values as the marker size.
-    ####  The otu_ids as the marker colors.
-    ####  The otu_labels as the hover-text values.
+   viz otu_ids as the x-axis; sample_values as the y-axis values;sample_values as the marker size; otu_ids as the marker colors;otu_labels as the hover-text values.
+    
     
 ### Created a Gauge Chart
    
@@ -31,6 +28,6 @@
 
 ##### Image created  using Javascript AND htML code :
 
-  ![Challengefinal.png](Challengefinal.png)
+  ![Challengefinal.png](images/Challengefinal.png)
   
   
